@@ -1,0 +1,166 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+
+ .navbar{
+ 	background: linear-gradient(to right, #21211f 0%, #606c62 100%);
+ }
+
+ .navbar a{
+ 	font-family: "Poppins", sans-serif;
+ 	font-weight: 700;
+ 	font-style: italic;
+ 	color: #f4dcd8;
+ }
+
+ #hero-img{
+  border: 2px solid #606c62;
+  border-radius: 20px;
+  background-color: #606c62;
+  padding: 10px;
+ }
+
+/* Home */
+
+#home{
+  background-color: #959688;
+}
+
+#introduction h1{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: white;
+}
+
+#introduction span{
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  color: #303631  ;
+}
+
+#introduction h4{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #21211f;
+}
+
+#introduction .btn{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: white;
+  border: 2px solid white;
+}
+
+/*End of Home*/
+
+
+/*Categories*/
+
+#categories h4{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #21211f;
+  margin: 2rem;
+}
+
+#categories a{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #21211f;
+}
+
+#resources h4{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #21211f;
+  margin: 2rem;
+  text-align: center;
+}
+
+#resources .list-group-item{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #21211f;
+}
+
+
+/*End of Categories*/
+
+
+
+
+/*About*/
+
+#about{
+  background-color: #606c62;
+}
+
+#mission h1{
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  color: #21211f;
+}
+
+#mission span{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #fdfcdd;
+}
+
+#mission h4{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #21211f;
+}
+
+#mission p{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #fdfcdd;
+}
+
+#contact h2{
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  color: #fdfcdd;
+}
+
+#contact p{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #fdfcdd;
+}
+
+#contact .contact-form{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #fdfcdd;
+}
+
+#contact .btn{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #fdfcdd;
+  border: 2px solid #fdfcdd;
+}
+
+/*End of About*/
+
+
+/*Footer*/
+
+#footer{
+  font-family: "Poppins", sans-serif;
+    font-weight: 600;
+  text-align: center;
+    padding: 10px;
+    background: linear-gradient(to right, #606c62 0%, #21211f 100%);
+    color: white;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+/*End of Footer*/
